@@ -1,0 +1,148 @@
+Benchmarking file: small.dat with t = 2
+
+Load/Create Table: 3.8644ms
+Search for key [71]: Found
+Search Time: 30.3580µs
+Add Record Time: 384.1050µs
+Record for key updated successfully.
+Update Record Time: 54.6940µs
+Search after update Time: 43.5140µs
+----------------------------------------
+
+Benchmarking file: small.dat with t = 4
+
+Load/Create Table: 4.9126ms
+Search for key [71]: Found
+Search Time: 39.8310µs
+Add Record Time: 280.9800µs
+Record for key updated successfully.
+Update Record Time: 48.5220µs
+Search after update Time: 41.4120µs
+----------------------------------------
+
+Benchmarking file: small.dat with t = 8
+
+Load/Create Table: 4.9489ms
+Search for key [71]: Found
+Search Time: 63.7710µs
+Add Record Time: 343.8620µs
+Record for key updated successfully.
+Update Record Time: 56.3110µs
+Search after update Time: 48.4320µs
+----------------------------------------
+
+Benchmarking file: small.dat with t = 16
+
+Load/Create Table: 7.2613ms
+Search for key [71]: Found
+Search Time: 60.2800µs
+Add Record Time: 328.2670µs
+Record for key updated successfully.
+Update Record Time: 50.3860µs
+Search after update Time: 44.3230µs
+----------------------------------------
+
+Benchmarking file: medium.dat with t = 2
+
+Load/Create Table: 1.6015s
+Search for key [50, 52, 57, 57]: Found
+Search Time: 27.9350µs
+Add Record Time: 216.8120µs
+Record for key updated successfully.
+Update Record Time: 29.5980µs
+Search after update Time: 26.3080µs
+----------------------------------------
+
+Benchmarking file: medium.dat with t = 4
+
+Load/Create Table: 1.2952s
+Search for key [50, 52, 57, 57]: Found
+Search Time: 38.6770µs
+Add Record Time: 226.7660µs
+Record for key updated successfully.
+Update Record Time: 33.6200µs
+Search after update Time: 30.7610µs
+----------------------------------------
+
+Benchmarking file: medium.dat with t = 8
+
+Load/Create Table: 1.8208s
+Search for key [50, 52, 57, 57]: Found
+Search Time: 46.8330µs
+Add Record Time: 310.6610µs
+Record for key updated successfully.
+Update Record Time: 44.8550µs
+Search after update Time: 40.5360µs
+----------------------------------------
+
+Benchmarking file: medium.dat with t = 16
+
+Load/Create Table: 2.7693s
+Search for key [50, 52, 57, 57]: Found
+Search Time: 75.4480µs
+Add Record Time: 458.5750µs
+Record for key updated successfully.
+Update Record Time: 74.8410µs
+Search after update Time: 61.6340µs
+----------------------------------------
+
+Benchmarking file: large.dat with t = 2
+
+Load/Create Table: 344.3574s
+Search for key [49, 48, 48, 48, 57, 52, 50]: Found
+Search Time: 2.6235ms
+Add Record Time: 511.0690µs
+Record for key updated successfully.
+Update Record Time: 73.8040µs
+Search after update Time: 71.9970µs
+----------------------------------------
+
+Benchmarking file: large.dat with t = 4
+
+Load/Create Table: 326.1955s
+Search for key [49, 48, 48, 48, 57, 52, 50]: Found
+Search Time: 60.6200µs
+Add Record Time: 449.9440µs
+Record for key updated successfully.
+Update Record Time: 61.4320µs
+Search after update Time: 57.2740µs
+----------------------------------------
+
+Benchmarking file: large.dat with t = 8
+
+Load/Create Table: 451.8518s
+Search for key [49, 48, 48, 48, 57, 52, 50]: Found
+Search Time: 86.1570µs
+Add Record Time: 772.9780µs
+Record for key updated successfully.
+Update Record Time: 113.7120µs
+Search after update Time: 119.5340µs
+----------------------------------------
+
+Benchmarking file: large.dat with t = 16
+
+Load/Create Table: 671.4991s
+Search for key [49, 48, 48, 48, 57, 52, 50]: Found
+Search Time: 3.2595ms
+Add Record Time: 836.5900µs
+Record for key updated successfully.
+Update Record Time: 106.5580µs
+Search after update Time: 101.4340µs
+----------------------------------------
+
+Benchmark finished. Results saved to results.csv!
+
+Summary:
+File         t    Load(s)    Search(s)  Add(s)     Update(s)  Search2(s)
+small.dat    2    0.003864   0.000030   0.000384   0.000055   0.000044
+small.dat    4    0.004913   0.000040   0.000281   0.000049   0.000041
+small.dat    8    0.004949   0.000064   0.000344   0.000056   0.000048
+small.dat    16   0.007261   0.000060   0.000328   0.000050   0.000044
+medium.dat   2    1.601475   0.000028   0.000217   0.000030   0.000026
+medium.dat   4    1.295197   0.000039   0.000227   0.000034   0.000031
+medium.dat   8    1.820784   0.000047   0.000311   0.000045   0.000041
+medium.dat   16   2.769343   0.000075   0.000459   0.000075   0.000062
+large.dat    2    344.357414 0.002623   0.000511   0.000074   0.000072
+large.dat    4    326.195499 0.000061   0.000450   0.000061   0.000057
+large.dat    8    451.851824 0.000086   0.000773   0.000114   0.000120
+large.dat    16   671.499069 0.003259   0.000837   0.000107   0.000101
